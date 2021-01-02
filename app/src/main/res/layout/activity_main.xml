@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginTop="232dp"
+            android:text="欢迎使用重力球项目"
+            android:textColor="#050505"
+            android:textSize="28sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btnselect"
+        android:padding="10dp"
+        android:text="小球运动"
+        android:textColor="@color/bar_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginTop="632dp"
+            android:text="Tip:请晃动手机使得球移动"
+            android:textColor="#050505"
+            android:textSize="15sp"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginTop="670dp"
+            android:text="大幅度晃动手机有奇妙的事情发生哦~"
+            android:textColor="#050505"
+            android:textSize="15sp"
+            android:gravity="center" />
+    </LinearLayout>
+</RelativeLayout>
